@@ -1,0 +1,16 @@
+2.(Gas) Es beginnt mit % und der Speicher zugriff ist von QUelle zu Ziel
+3.#include <stdio.h>
+
+int main(void) {
+    FILE *f = fopen("output.txt", "w");
+    if (!f) return 1;
+
+    // Schreiben auf stdout
+    fprintf(stdout, "Hello to stdout!\n");
+
+    // Schreiben in eine Datei
+    fprintf(f, "Hello to file!\n");
+
+    fclose(f);
+    return 0;
+}
