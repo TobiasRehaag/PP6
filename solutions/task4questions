@@ -1,0 +1,5 @@
+1. Python ist am nächsten verwandt mit C. Bei beiden ist printf() eine 
+Funktionsbibliothek.
+2. Ein Phytonscript ist kein Binärprogramm sondern reiner Text deswegen 
+kann objdump es nicht richtig  analysieren.
+ 
