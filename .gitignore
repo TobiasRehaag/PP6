@@ -1,0 +1,13 @@
+# Object files
+*.o
+
+# Binaries / executables
+print
+print_c
+a.out
+
+# Editor / OS files
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
