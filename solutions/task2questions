@@ -1,0 +1,5 @@
+1.Ein File Descriptior ist eine kleine ganze Zahl die ein geöffnetes Objekt im Betriebssystem repraesentiert
+2.Man kann es durch die Befehle (open() ,socket() oder dup() als bsp.
+int fd2 = dup(1);
+3. Folgen davon sind einmal der syscall schlägt fehl der der Rückgabewert
+ist -1.
