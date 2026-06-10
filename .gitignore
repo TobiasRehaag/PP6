@@ -11,3 +11,4 @@ a.out
 *.swo
 .DS_Store
 Thumbs.db
+//Weil sie groß, unnötig, nicht versionsrelevant und nicht portabel sind.
